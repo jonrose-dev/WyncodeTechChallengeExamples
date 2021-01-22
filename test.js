@@ -16,7 +16,7 @@ describe('isAnagram', () => {
 })
 
 
-describe('duplicateCount', () => {
+describe('firstNonDuplicate', () => {
 
   it('returns "a" for "a"', () => {
     expect(firstNonDuplicate('a')).toBe('a');
